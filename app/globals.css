@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+}
+.first-3 li:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+  display: none;
+}  
+@media (min-width: 640px) {
+  .first-3 li {
+    display: block !important;
+  }  
+}
+
