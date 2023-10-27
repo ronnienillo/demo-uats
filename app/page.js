@@ -55,7 +55,7 @@ export default async function Home() {
                 </li>
               ))}
             </ul>
-            <div className="text-center mt-[20px]">
+            <div className="text-center mt-[20px] mb-[40px] sm:mb-0">
               <Link href={'/'} className="text-red-700 text-lg font-semibold">Load more news</Link>
             </div>
 
@@ -102,7 +102,7 @@ export default async function Home() {
             </ul>
 
           </div>
-          <div className="sm:w-3/6 md:w-2/6 px-[15px]">
+          <div className="sm:w-3/6 md:w-2/6 px-[15px] mt-[40px] sm:mt-0">
             <h2 className="text-[#181D2F] text-2xl font-semibold">News</h2>
             <div className="border-b-2 border-black mt-[15px]"></div>
             <ul>
@@ -122,7 +122,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <h2 className="text-[#181D2F] text-2xl font-semibold mt-[20px]">News</h2>
+        <h2 className="text-[#181D2F] text-2xl font-semibold mt-[40px] sm:mt-[20px]">News</h2>
         <div className="border-b-2 border-black mt-[15px]"></div>
         <ul className="mt-[20px]">
           {articles7.data.map(article => (
